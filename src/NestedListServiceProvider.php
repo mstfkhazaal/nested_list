@@ -11,11 +11,11 @@ use Filament\Support\Facades\FilamentIcon;
 use Filament\Support\Icons\Icon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Mstfkhazaal\NestedList\Commands\NestedListCommand;
+use Mstfkhazaal\NestedList\Testing\TestsNestedList;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mstfkhazaal\NestedList\Commands\NestedListCommand;
-use Mstfkhazaal\NestedList\Testing\TestsNestedList;
 
 class NestedListServiceProvider extends PackageServiceProvider
 {

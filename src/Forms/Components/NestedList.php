@@ -9,7 +9,6 @@ use Filament\Forms\Components\TextInput;
 
 class NestedList extends Field
 {
-
     protected string $view = 'filament-navigation::components.nested-list';
 
     public function createNav(): Action
